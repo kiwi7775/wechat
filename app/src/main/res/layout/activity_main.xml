@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.adproid.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -19,12 +19,12 @@
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         app:tabGravity="fill"
-        app:tapIndicatorHeigth="odp"
         app:tabMode="fixed"
-        app:tabSelectedTextColor="@android:color/holo_green_light"
-        app:tabTextColor="@android:color/darker_gray">
+        app:tabIndicatorHeight="0dp"
+        app:tabTextColor="@android:color/darker_gray"
+        app:tabSelectedTextColor="@android:color/holo_green_dark">
     </android.support.design.widget.TabLayout>
 
 </LinearLayout>
